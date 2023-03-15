@@ -60,7 +60,7 @@ function preload()
 function setup() 
 {
   
-  var isMobile = /iPhone|iPad|Android/i.test(navegator.userAgent)
+  var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
  if(isMobile){
   createCanvas(displayWidth,displayHeight);
   canW = displayWidth;
