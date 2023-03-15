@@ -66,9 +66,9 @@ function setup()
   canW = displayWidth;
   canH = displayHeigth;
  }else{
-  createCanvas(windowWidth,windowHeigth);
+  createCanvas(windowWidth,windowHeight);
   canW = windowWidth;
-  canH = windowHeigth;
+  canH = windowHeight;
  }
   
   frameRate(80);
